@@ -243,7 +243,7 @@ img {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .employee {
@@ -270,12 +270,11 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  background: var(--primary-bc-cl);
 }
 
 .client-item:hover,
 .client-item:focus {
-  fill: var(--accent-txt-cl);
+  fill: #FFFFFF;
   border-color: var(--accent-txt-cl);
 }
 
@@ -286,7 +285,7 @@ img {
 
 .socials-link:hover,
 .socials-link:focus {
-  fill: var(--light-txt-cl);
+  fill: #FFFFFF;
   background-color: var(--accent-txt-cl);
 }
 
@@ -363,6 +362,7 @@ img {
 .container-footer {
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 
 .socials-link-footer {

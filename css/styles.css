@@ -224,7 +224,6 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  width: 270px;
   height: 120px;
   background: var(--primary-bc-cl);
   border-radius: 4px;
@@ -258,6 +257,7 @@ img {
 }
 
 .list-empl {
+  background-color: var(--primary-bc-cl);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -269,22 +269,27 @@ img {
 }
 
 .client-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 
 .list-client {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 30px;
 }
 
 .company {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   color: #AFB1B8;
 }
 
@@ -292,10 +297,6 @@ img {
 .company:hover,
 .company:focus {
   color: var(--accent-txt-cl);
-}
-
-.client-item:hover,
-.client-item:focus {
   border-color: var(--accent-txt-cl);
 }
 
@@ -352,10 +353,6 @@ img {
   margin-bottom: 9px;
 }
 
-.footer :hover,
-.footer :focus {
-  color: var(--accent-txt-cl);
-}
 
 .light {
   color: var(--light-txt-cl);

@@ -35,6 +35,12 @@ p {
 img {
   display: block;
 }
+
+.svg-id {
+  fill: currentColor;
+}
+
+
 /* Відключаємо підкреслення посилань та крапочки для списків */
 .list {
   list-style: none;
@@ -272,30 +278,40 @@ img {
   border-radius: 4px;
 }
 
-.client-item:hover,
-.client-item:focus {
-  fill: #FFFFFF;
-  border-color: var(--accent-txt-cl);
-}
 
 .list-client {
   display: flex;
   gap: 30px;
 }
 
-.socials-link:hover,
-.socials-link:focus {
-  fill: #FFFFFF;
-  background-color: var(--accent-txt-cl);
+.company {
+  color: #AFB1B8;
 }
 
+
+.company:hover,
+.company:focus {
+  color: var(--accent-txt-cl);
+}
+
+.client-item:hover,
+.client-item:focus {
+  border-color: var(--accent-txt-cl);
+}
+
+
+.socials-link:hover,
+.socials-link:focus {
+  color: #FFFFFF;
+  background-color: var(--accent-txt-cl);
+}
 .socials-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
-  color: var(--light-txt-cl);
+  color: #AFB1B8;
   background-color: var(--light-txt-cl);
   border-radius: 50%;
 }
@@ -304,6 +320,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  
   display: flex;
   justify-content: center;
   gap: 10px;
